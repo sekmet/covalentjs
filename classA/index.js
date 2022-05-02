@@ -9,6 +9,8 @@ const getLogEventsByTopicHashes = require('./getLogEventsByTopicHashes');
 const getExternalNFTMetadata = require('./getExternalNFTMetadata');
 const getNFTTokenIDs = require('./getNFTTokenIDs');
 const getNFTTransactions = require('./getNFTTransactions');
+const getNFTMarket = require('./getNFTMarket');
+const getNFTHistoricalData = require('./getNFTHistoricalData');
 const getChangesInTokenHoldersBetweenTwoBlockHeights = require('./getChangesInTokenHoldersBetweenTwoBlockHeights');
 const getTokenHoldersAsOfABlockHeight = require('./getTokenHoldersAsOfABlockHeight');
 const getAllContractMetadata = require('./getAllContractMetadata');
@@ -26,6 +28,8 @@ module.exports = {
 	getExternalNFTMetadata,
 	getNFTTokenIDs,
 	getNFTTransactions,
+	getNFTMarket,
+	getNFTHistoricalData,
 	getChangesInTokenHoldersBetweenTwoBlockHeights,
 	getTokenHoldersAsOfABlockHeight,
 	getAllContractMetadata,

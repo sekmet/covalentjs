@@ -11,7 +11,9 @@ Set DEBUG=covalentjs environment variable to debug requests.
 
 ```js
 
-const covalentjs = require('covalentjs');
+import covalentJs from '@sekmet/covalentjs';
+
+const covalentjs = require('@sekmet/covalentjs');
 
 // you can use classA, classB or pricing APIs
 // format covalentjs.<API class>.api

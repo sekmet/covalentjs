@@ -1,6 +1,6 @@
 {
-  "name": "covalentjs",
-  "version": "0.0.3",
+  "name": "@sekmet/covalentjs",
+  "version": "0.0.4",
   "description": "node.js binding for covalenthq.com",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Premiurly/covalentjs.git"
+    "url": "git+https://github.com/sekmet/covalentjs.git"
   },
   "keywords": [
     "covalent",
@@ -18,9 +18,9 @@
   "author": "Premiurly",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Premiurly/covalentjs/issues"
+    "url": "https://github.com/sekmet/covalentjs/issues"
   },
-  "homepage": "https://github.com/Premiurly/covalentjs#readme",
+  "homepage": "https://github.com/sekmet/covalentjs#readme",
   "dependencies": {
     "axios": "^0.21.1",
     "debug": "^4.3.1"
